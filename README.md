@@ -164,3 +164,9 @@ The proposed model performance is shown in the Table below:
 | Dristhi-Gs | 94.4444 %    |
 | ACRIMA     | 96.4286 %    |
 | RIM-ONE    | 93.2836 %    |
+
+
+
+## If you use this code please cite this work 
+
+Alzubair Alqaraghuli. (2024). Alzubair98/Glaucoma-classification-model: First Release of the model (Test-model). Zenodo. https://doi.org/10.5281/zenodo.12737514
