@@ -10,7 +10,7 @@ The repository is structered as follows:
 
 1. datasets folder: This folder contains the datasets used to train, test, and validation of the models. Datasets are ACRIMA, DRISHTI-GS, and RIM-ONE.
 
-2. files folder: This folder contains the weights of the models.
+2. files folder: This folder contains the weights of the models. **NOTE** because of weights size the file is availabe in google docs using this (link)[https://drive.google.com/drive/folders/1EjKJgV9oEtuPHs7siJ7ogsBPn-_YG8kc?usp=drive_link]
 
 3. predictions folder: In this folder the models performance was test on the test images from the datasets folder each model for its own dataset. the predictions are saved as masks for cup and disc.
 
