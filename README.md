@@ -4,29 +4,29 @@ Glaucoma classification model is the model project for our proposed paper that w
 
 **NOTE: DO NOT FORGET TO UNZIP THE FOLDERS**
 
-## Folder structer
+## Folder structure
 
-The repository is structered as follows:
+The repository is structured as follows:
 
-1. datasets folder: This folder contains the datasets used to train, test, and validation of the models. Datasets are ACRIMA, DRISHTI-GS, and RIM-ONE.
+1. Dataset folder: This folder contains the datasets used to train, test, and validate the models. Datasets are ACRIMA, DRISHTI-GS, and RIM-ONE.
 
-2. files folder: This folder contains the weights of the models. **NOTE** because of weight size the file is availabe in Google Docs using this [link](https://drive.google.com/drive/folders/1EjKJgV9oEtuPHs7siJ7ogsBPn-_YG8kc?usp=drive_link)
+2. files folder: This folder contains the weights of the models. **NOTE** Because of weight size, the file is available in Google Docs using this [link](https://drive.google.com/drive/folders/1EjKJgV9oEtuPHs7siJ7ogsBPn-_YG8kc?usp=drive_link)
 
 3. predictions folder: In this folder the models performance was test on the test images from the datasets folder each model for its own dataset. the predictions are saved as masks for cup and disc.
 
 4. cdr folder: Its the folder that contains the test images from different datasets (ACRIMA, DRISHTI-GS, RIM-ONE) to test the CDR accuracy of all the models **note** the models were not trained on these images.
 
-5. classification_model: This folder contains the weights for the classification model that used to classifiy images as (optic-cup, no optic-cup).
+5. classification_model: This folder contains the weights for the classification model that is used to classify images as (optic-cup, no optic-cup). **NOTE** Because of weight size the file is available in Google Docs using this [link](https://drive.google.com/drive/folders/1EjKJgV9oEtuPHs7siJ7ogsBPn-_YG8kc?usp=drive_link)
 
-6. classified_images: This folder has 3 folders inside it each one for each dataset in each folder there are two folders named (cdr, and segmentation) the cdr folder contains the output of the classification model applied on each dataset. segmentation folder contains the output of the segmentation model applyed on the cdr folder images **NOTE** that cdr here is not the same folder in the first step.
+6. classified_images: This folder has 3 folders inside it, each one for each dataset. In each folder, there are two folders named (cdr and segmentation). The cdr folder contains the output of the classification model applied to each dataset. The segmentation folder contains the output of the segmentation model applied to the cdr folder images **NOTE** that cdr here is not the same folder in the first step.
 
-7. models.ipynb: Is the code used to test all the models you are able to clone it and run it on your end.
+7. models.ipynb: This is the code used to test all the models. You can clone it and run it on your end.
 
 ## Getting Started
 
 ### Prerequisites
 
-In order to clone and use this repo you need to have:
+In order to clone and use this repo, you need to have the following:
 
 - Python (version >= 3.7)
 - Tensorflow (version >= 2.10.0)
