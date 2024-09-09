@@ -10,13 +10,13 @@ The repository is structured as follows:
 
 1. Dataset folder: This folder contains the datasets used to train, test, and validate the models. Datasets are ACRIMA, DRISHTI-GS, and RIM-ONE.
 
-2. files folder: This folder contains the weights of the models. **NOTE** Because of weight size, the file is available in Google Docs using this [link](https://drive.google.com/drive/folders/1EjKJgV9oEtuPHs7siJ7ogsBPn-_YG8kc?usp=drive_link)
+2. files folder: This folder contains the weights of the models. **NOTE** Because of weight size, the file is available in Google Docs using this [link](https://drive.google.com/drive/folders/1EjKJgV9oEtuPHs7siJ7ogsBPn-_YG8kc?usp=sharing)
 
 3. predictions folder: In this folder the models performance was test on the test images from the datasets folder each model for its own dataset. the predictions are saved as masks for cup and disc.
 
 4. cdr folder: Its the folder that contains the test images from different datasets (ACRIMA, DRISHTI-GS, RIM-ONE) to test the CDR accuracy of all the models **note** the models were not trained on these images.
 
-5. classification_model: This folder contains the weights for the classification model that is used to classify images as (optic-cup, no optic-cup). **NOTE** Because of weight size the file is available in Google Docs using this [link](https://drive.google.com/drive/folders/1EjKJgV9oEtuPHs7siJ7ogsBPn-_YG8kc?usp=drive_link)
+5. classification_model: This folder contains the weights for the classification model that is used to classify images as (optic-cup, no optic-cup). **NOTE** Because of weight size the file is available in Google Docs using this [link](https://drive.google.com/drive/folders/1EjKJgV9oEtuPHs7siJ7ogsBPn-_YG8kc?usp=sharing)
 
 6. classified_images: This folder has 3 folders inside it, each one for each dataset. In each folder, there are two folders named (cdr and segmentation). The cdr folder contains the output of the classification model applied to each dataset. The segmentation folder contains the output of the segmentation model applied to the cdr folder images **NOTE** that cdr here is not the same folder in the first step.
 
